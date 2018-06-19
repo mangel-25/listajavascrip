@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MI PAGINA</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+</head>
+
+<body>
+      
+    <header class="container-fluid p-4 bg-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="text-light">Pagina de Inicio</h3>
+                </div>
+
+                <div class="col-md-6 ">
+                    <input class="form-control" type="text" name="Busqueda" id="txtBusqueda">
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <div class="container" id="contenedor">
+        <section class="container card card-body mt-2 p-4 bg-info">
+            <form id="miform">
+                <h3 class="card-title text-light">Añadir objetos</h3>
+                <div class="row container">
+                    <input type="text" name="Valor" id="txtValor" autofocus>
+                    <button type="submit" id="btnAnadir" name="boton" class="btn btn-principal text-dark ml-1">Añadir</button>
+                </div>
+            </form>
+            <h3 class="mt-4 text-light">Objetos añadidos</h3>
+            <hr>
+            <div class="row container">
+                <ul id="miLista" class="card card-body list-unstyled list list-group list-group-flush form-control">
+                   <h4 id="textovacio" class="text-center">Lista vacía</h4>
+                   <!-- <li class="list-group-item">ITEM1
+                            <button class="btn btn-danger float-right delete">x</button>
+                        </li>
+                        <li class="list-group-item">ITEM2
+                            <button class="btn btn-danger float-right delete">x</button>
+                        </li>
+                        <li class="list-group-item">ITEM3
+                            <button class="btn btn-danger float-right delete">x</button>
+                        </li>
+                    -->
+                </ul>
+            </div>
+
+        </section>
+    </div>
+
+    <div id="snackbar">Some text some message..</div>
+    
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

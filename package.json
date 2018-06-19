@@ -1,0 +1,17 @@
+{
+  "name": "pruebajs",
+  "version": "1.0.0",
+  "description": "mio",
+  "main": "1",
+  "dependencies": {
+    "eslint": "^4.19.1"
+  },
+  "devDependencies": {
+    "eslint-config-google": "^0.9.1"
+  },
+  "scripts": {
+    "test": "runjs"
+  },
+  "author": "martin",
+  "license": "UNLICENSED"
+}
